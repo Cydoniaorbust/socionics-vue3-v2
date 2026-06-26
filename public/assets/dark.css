@@ -1,0 +1,24 @@
+body {									background: #121212;	color: #f2ebb8; }
+table.zebra tr:nth-child(2n+1) {		background: #232323; }
+table.zebra tr:nth-child(n+3):hover {	background: #363636;					box-shadow: 0 0 10px 0 rgba(255,255,255,.1); }
+th, td, .icons, .props {														border: 1px solid #363636; }
+button { 								background: #333333;	color: inherit; box-shadow: 0 0 10px 0 rgba(255,255,255,.1); }
+button:hover,
+button.active,
+button.pressed {						background: #f2ebb8;	color: #222222; }
+button.active.pressed {					background: #4faf7f;	color: #f2ebb8; }
+button.jazz.pressed {					background: #af4f7f;	color: #f2ebb8; }
+
+.tableWrap {							background: #1e1e1e;					box-shadow: 0 0 10px 0 rgba(255,255,255,.15); }
+.legendLabel.active {															box-shadow: 0 0 10px 0 rgba(255,255,255,.15) inset; }
+.tumbler {								background: #222222; }
+.tumbler:hover {																box-shadow: 0 0 10px 1px rgba(255,255,255,.1); }
+.slider {								background: #f2ebb8; }
+.separator {																	border-bottom: 2px solid #363636; }
+.prop:nth-child(n+2) {															border-top: 1px solid #363636; }
+
+#header, #footer {						background: #222222; }
+#head-menu a, #f1 span {										color: inherit; }
+#head-menu a:hover {					background: #444444; }
+#theme.tumbler {						background: #4a76a8; }
+#theme.slider {							background: center/cover url('../assets/images/sun.png'); }
